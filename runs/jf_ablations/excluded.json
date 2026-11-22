@@ -1,0 +1,10 @@
+{
+ "jfabl1": {
+  "ladder-qwen3-8b": "retired by OpenRouter on 2026-10-09 (404 'deprecated' on every canary call on 2026-11-21), so no canary can be clean by the 2026-12-05 deadline",
+  "ladder-qwen3think": "retired by OpenRouter on 2026-10-09 (404 'deprecated' on every canary call on 2026-11-21), so no canary can be clean by the 2026-12-05 deadline"
+ },
+ "jfabl2": {
+  "ladder-qwen3-8b": "retired by OpenRouter on 2026-10-09 (404 'deprecated' on every canary call on 2026-11-21), so no canary can be clean by the 2026-12-05 deadline",
+  "ladder-qwen3think": "retired by OpenRouter on 2026-10-09 (404 'deprecated' on every canary call on 2026-11-21), so no canary can be clean by the 2026-12-05 deadline"
+ }
+}

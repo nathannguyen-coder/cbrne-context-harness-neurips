@@ -1,0 +1,24 @@
+{
+ "written": "2026-11-21, before any call of this experiment (runs/jf_ablations/PREREGISTERED.md)",
+ "key": ".env.sao10k, the second key, for every subject, as the author approved on 2026-11-21",
+ "reachability": "all sixteen answered through their pinned providers on the second key in runs/jf_vs_sp (2026-10-04/05)",
+ "primary": [
+  "ladder-commandr7b",
+  "ladder-euryale70b",
+  "ladder-glm45air",
+  "ladder-granite42",
+  "ladder-llama31-70b",
+  "ladder-llama31-8b",
+  "ladder-llama33-70b",
+  "ladder-ministral8b",
+  "ladder-mistral-eval",
+  "ladder-nemo12b",
+  "ladder-phi4",
+  "ladder-qwen25-72b",
+  "ladder-qwen3-14b",
+  "ladder-qwen3-32b",
+  "ladder-qwen3-8b",
+  "ladder-qwen3think"
+ ],
+ "unreachable": {}
+}

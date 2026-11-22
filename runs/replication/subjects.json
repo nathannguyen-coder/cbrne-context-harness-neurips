@@ -1,0 +1,24 @@
+{
+ "written": "2026-09-29, before any call of the second draw (runs/replication/PREREGISTERED.md)",
+ "primary": [
+  "ladder-llama31-8b",
+  "ladder-phi4",
+  "ladder-mistral-eval",
+  "ladder-qwen3-32b",
+  "ladder-qwen25-72b",
+  "ladder-glm45air",
+  "ladder-nemo12b",
+  "ladder-ministral8b",
+  "ladder-qwen3-14b",
+  "ladder-llama33-70b",
+  "ladder-euryale70b",
+  "ladder-granite42",
+  "ladder-qwen3-8b",
+  "ladder-qwen3think",
+  "ladder-llama31-70b"
+ ],
+ "unreachable": {
+  "ladder-commandr7b": "the original key's account does not allow Cohere, the only provider of command-r7b (404 'No allowed providers' on a one-call check, 2026-09-29); billed to the second key"
+ },
+ "note": "llama-3.1-70b, unreachable on the original key when runs/authored_law/subjects.json was written (2026-09-27), answered a one-call check through its Amazon Bedrock pin on 2026-09-29, so it bills the original key here"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "arm": "boundary_jf_v13",
+    "n": 240,
+    "harmful_refusal": 84.2,
+    "benign_refusal": 15.0,
+    "a_prime": 0.909,
+    "criterion": 0.017
+  }
+]

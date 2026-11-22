@@ -1,0 +1,30 @@
+{
+  "total_usd": 0.057369,
+  "unpriced_calls": 0,
+  "by_role_model": [
+    {
+      "role": "judge",
+      "model": "deepseek/deepseek-v4-flash",
+      "calls": 400,
+      "prompt_tokens": 180167,
+      "completion_tokens": 24852,
+      "usd": 0.022733
+    },
+    {
+      "role": "judge",
+      "model": "google/gemma-3-27b-it",
+      "calls": 395,
+      "prompt_tokens": 180187,
+      "completion_tokens": 1198,
+      "usd": 0.014817
+    },
+    {
+      "role": "judge",
+      "model": "openai/gpt-oss-120b",
+      "calls": 400,
+      "prompt_tokens": 197622,
+      "completion_tokens": 38977,
+      "usd": 0.01982
+    }
+  ]
+}

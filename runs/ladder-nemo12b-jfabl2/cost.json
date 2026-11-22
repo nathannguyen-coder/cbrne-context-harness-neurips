@@ -1,0 +1,46 @@
+{
+  "total_usd": 0.245616,
+  "unpriced_calls": 0,
+  "by_role_model": [
+    {
+      "role": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "calls": 480,
+      "prompt_tokens": 71838,
+      "completion_tokens": 0,
+      "usd": 0.001437
+    },
+    {
+      "role": "judge",
+      "model": "deepseek/deepseek-v4-flash",
+      "calls": 1200,
+      "prompt_tokens": 592104,
+      "completion_tokens": 31587,
+      "usd": 0.065007
+    },
+    {
+      "role": "judge",
+      "model": "google/gemma-3-27b-it",
+      "calls": 1200,
+      "prompt_tokens": 602378,
+      "completion_tokens": 2946,
+      "usd": 0.048745
+    },
+    {
+      "role": "judge",
+      "model": "openai/gpt-oss-120b",
+      "calls": 1200,
+      "prompt_tokens": 661150,
+      "completion_tokens": 128772,
+      "usd": 0.081664
+    },
+    {
+      "role": "subject",
+      "model": "mistralai/mistral-nemo",
+      "calls": 1204,
+      "prompt_tokens": 1438339,
+      "completion_tokens": 235009,
+      "usd": 0.048762
+    }
+  ]
+}

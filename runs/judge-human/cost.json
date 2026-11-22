@@ -1,0 +1,54 @@
+{
+  "total_usd": 0.123428,
+  "unpriced_calls": 0,
+  "by_role_model": [
+    {
+      "role": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "calls": 114,
+      "prompt_tokens": 21086,
+      "completion_tokens": 0,
+      "usd": 0.000422
+    },
+    {
+      "role": "judge",
+      "model": "google/gemma-3-27b-it",
+      "calls": 277,
+      "prompt_tokens": 277249,
+      "completion_tokens": 759,
+      "usd": 0.029994
+    },
+    {
+      "role": "subject",
+      "model": "ibm-granite/granite-4.1-8b",
+      "calls": 37,
+      "prompt_tokens": 33849,
+      "completion_tokens": 26834,
+      "usd": 0.004376
+    },
+    {
+      "role": "subject",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "calls": 74,
+      "prompt_tokens": 53384,
+      "completion_tokens": 23047,
+      "usd": 0.002121
+    },
+    {
+      "role": "subject",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "calls": 118,
+      "prompt_tokens": 29101,
+      "completion_tokens": 99086,
+      "usd": 0.022
+    },
+    {
+      "role": "subject",
+      "model": "qwen/qwen3-8b",
+      "calls": 73,
+      "prompt_tokens": 45718,
+      "completion_tokens": 130036,
+      "usd": 0.064515
+    }
+  ]
+}

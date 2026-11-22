@@ -1,0 +1,20 @@
+[
+  {
+    "arm": "boundary_judge_first",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 82.5,
+    "benign_refusal": 22.5,
+    "a_prime": 0.875,
+    "criterion": -0.088
+  },
+  {
+    "arm": "system_judge_first",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 78.3,
+    "benign_refusal": 16.7,
+    "a_prime": 0.882,
+    "criterion": 0.09
+  }
+]

@@ -1,0 +1,65 @@
+# Judge-first controls: the pre-registered analysis, run 2026-09-29 17:14 on commit 503bfbc
+
+$ .venv/bin/python scripts/jf_controls_analysis.py
+14 subjects scored
+
+arm                     A mean  harm %   ben %  subjects  min graded
+boundary_judge_first     0.886    84.4    21.8        14         239
+empty_judge_first        0.814    74.7    29.3        14         238
+label                    0.766    44.5    13.3        14         237
+neutral_judge_first      0.686    78.1    57.8        14         230
+neutral_lm               0.613    41.3    29.2        14         231
+system_judge_first       0.864    73.6    18.1        14         237
+system_prompt            0.820    37.9     3.6        14         237
+
+PRIMARY (per-subject dA', exact Wilcoxon, BCa 95%):
+  the clauses under judge-first, vs judge-first over the empty box  +0.0727  14/14  p=0.0001  BCa[+0.0377,+0.1856]  dH  +9.7  dF  -7.5
+PRE-REGISTERED VERDICT: THE CLAUSES ADD to judge-first; practically negligible (interval within +/-0.02): no
+
+SECONDARY (raw p, then Holm over the five):
+  judge-first over the empty box, vs the box                        +0.0478   9/14  p=0.1531  BCa[-0.0107,+0.0979]  dH +30.2  dF +16.1  Holm p=0.2080
+  judge-first over neutral text, vs the text                        +0.0728   9/14  p=0.1040  BCa[+0.0013,+0.1516]  dH +36.9  dF +28.7  Holm p=0.2080
+  judge-first over the system prompt, vs the prompt                 +0.0442  12/14  p=0.0134  BCa[+0.0135,+0.0734]  dH +35.7  dF +14.5  Holm p=0.0537
+  the clauses vs neutral text, both under judge-first               +0.2006  14/14  p=0.0001  BCa[+0.1512,+0.2555]  dH  +6.3  dF -36.0  Holm p=0.0006
+  the clauses vs the system prompt, both under judge-first          +0.0223  10/14  p=0.0353  BCa[+0.0073,+0.0389]  dH +10.9  dF  +3.7  Holm p=0.1058
+
+descriptive: development (4 subjects) beside evaluation
+  empty_judge_first - label: dev +0.077, eval +0.048
+  neutral_judge_first - neutral_lm: dev +0.089, eval +0.073
+  system_judge_first - system_prompt: dev +0.060, eval +0.044
+  boundary_judge_first - empty_judge_first: dev +0.061, eval +0.073
+descriptive: drift of the clause arm across batches (intervals only)
+  this batch - stored judge-first arm: -0.0066 over 14 subjects, BCa[-0.0188,-0.0013]
+  this batch - option-A redraw: -0.0027 over 14 subjects, BCa[-0.0116,+0.0056]
+
+$ .venv/bin/python scripts/jf_controls_analysis.py --with-second-key
+16 subjects scored
+
+arm                     A mean  harm %   ben %  subjects  min graded
+boundary_judge_first     0.880    83.4    22.1        16         239
+empty_judge_first        0.816    72.7    27.2        16         238
+label                    0.772    43.5    12.0        16         237
+neutral_judge_first      0.700    77.3    54.2        16         230
+neutral_lm               0.620    40.2    28.6        16         231
+system_judge_first       0.862    69.8    16.1        16         237
+system_prompt            0.818    36.4     3.2        16         237
+
+PRIMARY (per-subject dA', exact Wilcoxon, BCa 95%):
+  the clauses under judge-first, vs judge-first over the empty box  +0.0641  15/16  p=0.0017  BCa[+0.0302,+0.1650]  dH +10.7  dF  -5.1
+SECONDARY, with the second-key subjects (not the pre-registered test): THE CLAUSES ADD to judge-first; practically negligible (interval within +/-0.02): no
+
+SECONDARY (raw p, then Holm over the five):
+  judge-first over the empty box, vs the box                        +0.0436  10/16  p=0.1297  BCa[-0.0069,+0.0895]  dH +29.2  dF +15.2  Holm p=0.1962
+  judge-first over neutral text, vs the text                        +0.0801  10/16  p=0.0654  BCa[+0.0136,+0.1536]  dH +37.2  dF +25.6  Holm p=0.1962
+  judge-first over the system prompt, vs the prompt                 +0.0432  14/16  p=0.0076  BCa[+0.0171,+0.0684]  dH +33.4  dF +13.0  Holm p=0.0305
+  the clauses vs neutral text, both under judge-first               +0.1798  15/16  p=0.0001  BCa[+0.1287,+0.2373]  dH  +6.0  dF -32.1  Holm p=0.0003
+  the clauses vs the system prompt, both under judge-first          +0.0183  11/16  p=0.0654  BCa[+0.0009,+0.0345]  dH +13.5  dF  +5.9  Holm p=0.1962
+
+descriptive: development (4 subjects) beside evaluation
+  empty_judge_first - label: dev +0.077, eval +0.044
+  neutral_judge_first - neutral_lm: dev +0.089, eval +0.080
+  system_judge_first - system_prompt: dev +0.060, eval +0.043
+  boundary_judge_first - empty_judge_first: dev +0.061, eval +0.064
+descriptive: drift of the clause arm across batches (intervals only)
+  this batch - stored judge-first arm: -0.0070 over 16 subjects, BCa[-0.0177,-0.0016]
+  this batch - option-A redraw: -0.0043 over 15 subjects, BCa[-0.0127,+0.0038]

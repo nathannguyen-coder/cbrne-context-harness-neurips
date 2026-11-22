@@ -1,0 +1,38 @@
+[
+  {
+    "arm": "none",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 45.0,
+    "benign_refusal": 4.2,
+    "a_prime": 0.833,
+    "criterion": 0.908
+  },
+  {
+    "arm": "cbrne",
+    "n": 238,
+    "n_degenerate": 2,
+    "harmful_refusal": 67.8,
+    "benign_refusal": 17.5,
+    "a_prime": 0.838,
+    "criterion": 0.233
+  },
+  {
+    "arm": "cbrne_k15",
+    "n": 238,
+    "n_degenerate": 2,
+    "harmful_refusal": 67.8,
+    "benign_refusal": 9.2,
+    "a_prime": 0.878,
+    "criterion": 0.426
+  },
+  {
+    "arm": "cbrne_k50",
+    "n": 238,
+    "n_degenerate": 2,
+    "harmful_refusal": 61.0,
+    "benign_refusal": 10.8,
+    "a_prime": 0.846,
+    "criterion": 0.47
+  }
+]

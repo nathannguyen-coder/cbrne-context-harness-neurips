@@ -1,0 +1,164 @@
+[
+  {
+    "arm": "none",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 57.1,
+    "benign_refusal": 3.3,
+    "a_prime": 0.875,
+    "criterion": 0.803
+  },
+  {
+    "arm": "label",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 76.5,
+    "benign_refusal": 17.5,
+    "a_prime": 0.871,
+    "criterion": 0.105
+  },
+  {
+    "arm": "irrelevant",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 62.2,
+    "benign_refusal": 10.0,
+    "a_prime": 0.855,
+    "criterion": 0.478
+  },
+  {
+    "arm": "generic",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 78.2,
+    "benign_refusal": 20.0,
+    "a_prime": 0.868,
+    "criterion": 0.032
+  },
+  {
+    "arm": "cbrne",
+    "n": 233,
+    "n_degenerate": 0,
+    "harmful_refusal": 59.6,
+    "benign_refusal": 8.4,
+    "a_prime": 0.855,
+    "criterion": 0.557
+  },
+  {
+    "arm": "cbrne_matched14",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 66.4,
+    "benign_refusal": 14.2,
+    "a_prime": 0.849,
+    "criterion": 0.32
+  },
+  {
+    "arm": "cbrne_hybrid",
+    "n": 237,
+    "n_degenerate": 0,
+    "harmful_refusal": 59.0,
+    "benign_refusal": 1.7,
+    "a_prime": 0.889,
+    "criterion": 0.908
+  },
+  {
+    "arm": "boundary",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 88.2,
+    "benign_refusal": 27.5,
+    "a_prime": 0.882,
+    "criterion": -0.289
+  },
+  {
+    "arm": "boundary_prohibition_only",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 92.4,
+    "benign_refusal": 26.7,
+    "a_prime": 0.902,
+    "criterion": -0.397
+  },
+  {
+    "arm": "boundary_as_prose",
+    "n": 238,
+    "n_degenerate": 0,
+    "harmful_refusal": 90.7,
+    "benign_refusal": 16.7,
+    "a_prime": 0.926,
+    "criterion": -0.172
+  },
+  {
+    "arm": "boundary_permit",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 77.3,
+    "benign_refusal": 13.3,
+    "a_prime": 0.891,
+    "criterion": 0.178
+  },
+  {
+    "arm": "boundary_static",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 89.1,
+    "benign_refusal": 19.2,
+    "a_prime": 0.912,
+    "criterion": -0.175
+  },
+  {
+    "arm": "neutral",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 62.2,
+    "benign_refusal": 7.5,
+    "a_prime": 0.868,
+    "criterion": 0.554
+  },
+  {
+    "arm": "system_prompt",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 79.0,
+    "benign_refusal": 9.2,
+    "a_prime": 0.913,
+    "criterion": 0.256
+  },
+  {
+    "arm": "system_inert",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 40.3,
+    "benign_refusal": 1.7,
+    "a_prime": 0.838,
+    "criterion": 1.141
+  },
+  {
+    "arm": "system_prompt_wrapped",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 89.9,
+    "benign_refusal": 26.7,
+    "a_prime": 0.891,
+    "criterion": -0.321
+  },
+  {
+    "arm": "boundary_deliberate",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 95.8,
+    "benign_refusal": 26.7,
+    "a_prime": 0.916,
+    "criterion": -0.535
+  },
+  {
+    "arm": "boundary_judge_first",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 92.4,
+    "benign_refusal": 35.0,
+    "a_prime": 0.876,
+    "criterion": -0.514
+  }
+]

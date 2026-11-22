@@ -1,0 +1,10 @@
+[
+  {
+    "arm": "boundary_jf_clfreplica",
+    "n": 240,
+    "harmful_refusal": 90.0,
+    "benign_refusal": 15.0,
+    "a_prime": 0.929,
+    "criterion": -0.119
+  }
+]

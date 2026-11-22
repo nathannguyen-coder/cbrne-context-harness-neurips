@@ -1,0 +1,10 @@
+[
+  {
+    "arm": "boundary_deliberate",
+    "n": 240,
+    "harmful_refusal": 66.7,
+    "benign_refusal": 4.2,
+    "a_prime": 0.897,
+    "criterion": 0.632
+  }
+]

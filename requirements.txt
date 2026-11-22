@@ -1,0 +1,14 @@
+# Tested with Python 3.14: numpy 2.5.2, scipy 1.18.1, matplotlib 3.11.1, scikit-learn 1.9.1.
+# requirements.lock pins every package exactly; use it to reproduce the published numbers.
+openai>=1.40
+datasets>=2.19
+pdfplumber>=0.11
+beautifulsoup4>=4.12
+requests>=2.31
+# Analyses: src/stats.py (exact Wilcoxon, BCa bootstrap) and the scripts that use numpy
+numpy
+scipy>=1.9
+# Figures: scripts/fig_*.py
+matplotlib
+# Embedding probe: scripts/embed_classifier.py
+scikit-learn

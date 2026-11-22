@@ -1,0 +1,129 @@
+{
+  "models": {
+    "subject": "qwen/qwen3-32b",
+    "judge": "google/gemma-3-27b-it",
+    "embedding": "openai/text-embedding-3-small",
+    "providers": null,
+    "quantizations": null
+  },
+  "split": "eval",
+  "dataset": {
+    "id": "ScaleAI/fortress_public"
+  },
+  "n_probes": 240,
+  "short_circuit": true,
+  "code": {
+    "commit": "d7ef6b4e97492895d6303b21e1218e0b5e41996b",
+    "dirty": false
+  },
+  "k_policy": 5,
+  "k_ref": 3,
+  "ks": {
+    "cbrne": 5,
+    "cbrne_k15": 15,
+    "cbrne_k50": 50
+  },
+  "pin": {
+    "providers": [
+      "deepinfra"
+    ],
+    "quantizations": [
+      "fp8"
+    ]
+  },
+  "corpus_sizes": {
+    "cbrne": 2624,
+    "cbrne_k15": 2624,
+    "cbrne_k50": 2624,
+    "generic": 242,
+    "irrelevant": 272,
+    "reference": 4,
+    "disclosure": 436,
+    "boundary": 14,
+    "boundary_all": 14,
+    "matched14": 14,
+    "bprose": 14,
+    "bpermit": 14,
+    "bshuf": 14,
+    "neutral": 5,
+    "cbrne_hyb": 2624,
+    "boundary_prohibition_only": 14,
+    "boundary_v1_prose": 31,
+    "v2_prohibition_only_length_matched": 14,
+    "v3_tightened": 14,
+    "v4_trigger": 14,
+    "v6_examples": 14,
+    "v7_refuse_whole": 14,
+    "v8_tiebreak": 14,
+    "v9_compressed": 14,
+    "boundary_judgefirst": 14,
+    "boundary_inuser": 14,
+    "jf_strict": 14,
+    "jf_cite": 14,
+    "jf_guard": 14,
+    "jf_refusewhole": 14,
+    "jf_vector": 14,
+    "boundary_deliberate": 14,
+    "neutral_jf": 5,
+    "neutral_lm": 5,
+    "jf_permit": 14,
+    "jf_contrast": 14,
+    "jf_answercheck": 14,
+    "jf_reason": 14,
+    "v11_permit_wide": 14,
+    "v12_procedure": 14,
+    "v13_fine": 28,
+    "authored_a1": 14,
+    "authored_a4": 14,
+    "authored_a5": 14,
+    "jf_think_m": 14,
+    "jf_think_l": 14,
+    "tripwire": 14,
+    "tripwire_open": 14,
+    "jf_full": 14,
+    "jf_rubric": 14,
+    "jf_clfreplica": 14,
+    "jf_prefill": 14,
+    "jf_replica_prefill": 14,
+    "jf_v13": 28,
+    "jf_authored_law": 14,
+    "jf_forcereason": 14,
+    "v3_tightened_prohibition_only": 14
+  },
+  "providers": {
+    "subject": [
+      "DeepInfra"
+    ],
+    "judge": [
+      "AkashML",
+      "Alibaba",
+      "Amazon Bedrock",
+      "AtlasCloud",
+      "Azure",
+      "Baidu",
+      "BaseTen",
+      "Cerebras",
+      "CoreWeave",
+      "Crusoe",
+      "DeepInfra",
+      "DekaLLM",
+      "DigitalOcean",
+      "GMICloud",
+      "Groq",
+      "Mancer 2",
+      "Mara",
+      "Nebius",
+      "Novita",
+      "OpenInference",
+      "Parasail",
+      "Phala",
+      "Reka",
+      "Relace",
+      "SambaNova",
+      "SiliconFlow",
+      "StreamLake",
+      "Together",
+      "Venice"
+    ]
+  }
+}

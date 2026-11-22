@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/emb_cache/
+data/corpus/raw/
+*.local.*
+runs/**/.lock
+*.log

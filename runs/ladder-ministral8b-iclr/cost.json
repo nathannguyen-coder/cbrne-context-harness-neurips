@@ -1,0 +1,46 @@
+{
+  "total_usd": 3.731225,
+  "unpriced_calls": 0,
+  "by_role_model": [
+    {
+      "role": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "calls": 1440,
+      "prompt_tokens": 215514,
+      "completion_tokens": 0,
+      "usd": 0.00431
+    },
+    {
+      "role": "judge",
+      "model": "deepseek/deepseek-v4-flash",
+      "calls": 4365,
+      "prompt_tokens": 8290385,
+      "completion_tokens": 259987,
+      "usd": 0.754942
+    },
+    {
+      "role": "judge",
+      "model": "google/gemma-3-27b-it",
+      "calls": 4366,
+      "prompt_tokens": 8456861,
+      "completion_tokens": 12836,
+      "usd": 0.704041
+    },
+    {
+      "role": "judge",
+      "model": "openai/gpt-oss-120b",
+      "calls": 4364,
+      "prompt_tokens": 8475144,
+      "completion_tokens": 628392,
+      "usd": 0.636617
+    },
+    {
+      "role": "subject",
+      "model": "mistralai/ministral-8b-2512",
+      "calls": 4371,
+      "prompt_tokens": 4469693,
+      "completion_tokens": 6957670,
+      "usd": 1.631314
+    }
+  ]
+}

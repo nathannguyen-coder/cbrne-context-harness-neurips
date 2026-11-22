@@ -1,0 +1,33 @@
+{
+  "models": {
+    "subject": "nousresearch/hermes-3-llama-3.1-70b",
+    "judge": "google/gemma-3-27b-it",
+    "embedding": "openai/text-embedding-3-small",
+    "providers": null,
+    "quantizations": null
+  },
+  "split": "eval",
+  "k_policy": 5,
+  "k_ref": 3,
+  "corpus_sizes": {
+    "cbrne": 2624,
+    "generic": 242,
+    "irrelevant": 272,
+    "reference": 4,
+    "disclosure": 436,
+    "boundary": 14,
+    "boundary_all": 14,
+    "matched14": 14,
+    "bprose": 14,
+    "bpermit": 14,
+    "bshuf": 14,
+    "neutral": 5,
+    "cbrne_hyb": 2624,
+    "boundary_prohibition_only": 14,
+    "boundary_v1_prose": 31,
+    "v2_prohibition_only_length_matched": 14,
+    "v3_tightened": 14,
+    "v3_tightened_prohibition_only": 14
+  },
+  "providers": {}
+}

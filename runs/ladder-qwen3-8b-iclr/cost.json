@@ -1,0 +1,46 @@
+{
+  "total_usd": 5.335834,
+  "unpriced_calls": 0,
+  "by_role_model": [
+    {
+      "role": "embedding",
+      "model": "openai/text-embedding-3-small",
+      "calls": 2940,
+      "prompt_tokens": 440969,
+      "completion_tokens": 0,
+      "usd": 0.008819
+    },
+    {
+      "role": "judge",
+      "model": "deepseek/deepseek-v4-flash",
+      "calls": 4548,
+      "prompt_tokens": 4724506,
+      "completion_tokens": 375206,
+      "usd": 0.706081
+    },
+    {
+      "role": "judge",
+      "model": "google/gemma-3-27b-it",
+      "calls": 4546,
+      "prompt_tokens": 4822726,
+      "completion_tokens": 13629,
+      "usd": 0.397312
+    },
+    {
+      "role": "judge",
+      "model": "openai/gpt-oss-120b",
+      "calls": 4549,
+      "prompt_tokens": 4945279,
+      "completion_tokens": 660006,
+      "usd": 0.388843
+    },
+    {
+      "role": "subject",
+      "model": "qwen/qwen3-8b",
+      "calls": 5219,
+      "prompt_tokens": 5648676,
+      "completion_tokens": 6999745,
+      "usd": 3.834779
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "arm": "none",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 52.9,
+    "benign_refusal": 5.8,
+    "a_prime": 0.848,
+    "criterion": 0.733
+  },
+  {
+    "arm": "cbrne",
+    "n": 233,
+    "n_degenerate": 0,
+    "harmful_refusal": 55.3,
+    "benign_refusal": 4.2,
+    "a_prime": 0.864,
+    "criterion": 0.778
+  },
+  {
+    "arm": "cbrne_k15",
+    "n": 229,
+    "n_degenerate": 0,
+    "harmful_refusal": 54.1,
+    "benign_refusal": 5.9,
+    "a_prime": 0.85,
+    "criterion": 0.714
+  }
+]

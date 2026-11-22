@@ -1,0 +1,19 @@
+# The clauses against the 31-word system prompt under judge-first: the pre-registered analysis, run 2026-10-05 01:46 on commit 2b7d6cd (runs/jf_vs_sp/PREREGISTERED.md; no deviations)
+
+$ .venv/bin/python scripts/jfsp_analysis.py
+16 subjects scored
+
+PRIMARY: A'(the clauses under judge-first) - A'(the 31-word system prompt under judge-first), per subject, exact Wilcoxon, BCa 95%
+  clauses - system prompt, both under judge-first     +0.0207  10/16  p=0.0654  BCa[+0.0047,+0.0406]  dH +13.7  dF  +6.1
+PRE-REGISTERED VERDICT: no significant difference (80% power, unadjusted t, to detect 0.028); practically negligible (interval within +/-0.02): no
+  over 16 subjects: commandr7b, euryale70b, glm45air, granite42, llama31-70b, llama31-8b, llama33-70b, ministral8b, mistral-eval, nemo12b, phi4, qwen25-72b, qwen3-14b, qwen3-32b, qwen3-8b, qwen3think
+
+descriptive: A', harmful and benign refusal per arm (mean over the scored subjects)
+  boundary_judge_first   A' 0.881  harmful  84.0%  benign  22.6%
+  system_judge_first     A' 0.860  harmful  70.2%  benign  16.5%
+descriptive: the first draw (the judge-first controls) over the same subjects
+  clauses - system prompt, first draw                 +0.0183  11/16  p=0.0654  BCa[+0.0006,+0.0346]  dH +13.5  dF  +5.9  (16 subjects)
+  the same contrast on the mean of the two draws      +0.0195  10/16  p=0.0577  BCa[+0.0036,+0.0370]
+descriptive: test-retest of each arm (this draw - the first, per subject)
+  boundary_judge_first   +0.0012  BCa[-0.0053,+0.0120]  mean |change| 0.0121  (16 subjects)
+  system_judge_first     -0.0013  BCa[-0.0089,+0.0037]  mean |change| 0.0084  (16 subjects)

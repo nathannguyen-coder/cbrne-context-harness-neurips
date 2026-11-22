@@ -1,0 +1,65 @@
+[
+  {
+    "arm": "boundary_judge_first",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 92.5,
+    "benign_refusal": 33.3,
+    "a_prime": 0.882,
+    "criterion": -0.494
+  },
+  {
+    "arm": "empty_judge_first",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 80.8,
+    "benign_refusal": 19.2,
+    "a_prime": 0.881,
+    "criterion": -0.0
+  },
+  {
+    "arm": "label",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 22.5,
+    "benign_refusal": 0.8,
+    "a_prime": 0.795,
+    "criterion": 1.496
+  },
+  {
+    "arm": "neutral_judge_first",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 94.2,
+    "benign_refusal": 81.7,
+    "a_prime": 0.704,
+    "criterion": -1.216
+  },
+  {
+    "arm": "neutral_lm",
+    "n": 240,
+    "n_degenerate": 0,
+    "harmful_refusal": 23.3,
+    "benign_refusal": 0.8,
+    "a_prime": 0.798,
+    "criterion": 1.483
+  },
+  {
+    "arm": "system_judge_first",
+    "n": 239,
+    "n_degenerate": 0,
+    "harmful_refusal": 87.4,
+    "benign_refusal": 20.8,
+    "a_prime": 0.901,
+    "criterion": -0.163
+  },
+  {
+    "arm": "system_prompt",
+    "n": 238,
+    "n_degenerate": 0,
+    "harmful_refusal": 31.1,
+    "benign_refusal": 0.8,
+    "a_prime": 0.82,
+    "criterion": 1.365
+  }
+]

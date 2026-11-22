@@ -1,0 +1,24 @@
+{
+ "checked": "2026-09-27T18:15:38",
+ "key": ".env (original)",
+ "primary": [
+  "ladder-llama31-8b",
+  "ladder-phi4",
+  "ladder-mistral-eval",
+  "ladder-qwen3-32b",
+  "ladder-qwen25-72b",
+  "ladder-glm45air",
+  "ladder-nemo12b",
+  "ladder-ministral8b",
+  "ladder-qwen3-14b",
+  "ladder-llama33-70b",
+  "ladder-euryale70b",
+  "ladder-granite42",
+  "ladder-qwen3-8b",
+  "ladder-qwen3think"
+ ],
+ "unreachable": {
+  "ladder-commandr7b": "no provider on this key (404)",
+  "ladder-llama31-70b": "no provider on this key (404)"
+ }
+}

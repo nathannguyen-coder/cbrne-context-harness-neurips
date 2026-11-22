@@ -1,0 +1,24 @@
+{
+ "written": "2026-10-04, before any call of this experiment (runs/jf_vs_sp/PREREGISTERED.md)",
+ "key": ".env.sao10k, the second key, for every subject, as the author approved on 2026-10-04",
+ "reachability": "one call through each subject's pinned provider on the second key reached all sixteen: twelve on 2026-10-02 (runs/replication/PREREGISTERED.md, Deviation 5) and the other four on 2026-10-04",
+ "primary": [
+  "ladder-commandr7b",
+  "ladder-euryale70b",
+  "ladder-glm45air",
+  "ladder-granite42",
+  "ladder-llama31-70b",
+  "ladder-llama31-8b",
+  "ladder-llama33-70b",
+  "ladder-ministral8b",
+  "ladder-mistral-eval",
+  "ladder-nemo12b",
+  "ladder-phi4",
+  "ladder-qwen25-72b",
+  "ladder-qwen3-14b",
+  "ladder-qwen3-32b",
+  "ladder-qwen3-8b",
+  "ladder-qwen3think"
+ ],
+ "unreachable": {}
+}
