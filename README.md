@@ -1,12 +1,18 @@
 # Evaluating Context-Window Harnesses for CBRNE Safety
 
 Code, policy texts and per-prompt verdicts for the NeurIPS 2026 workshop paper
-*Evaluating Context-Window Harnesses for CBRNE Safety* (NewInML and AI4GOOD workshops).
+*Evaluating Context-Window Harnesses for CBRNE Safety*.
 
-We test what to put in a model's context window so that it refuses harmful CBRNE requests
-and still answers benign ones on the same topic. Fourteen open-weight models, sixteen
-harness conditions, 120 matched pairs from FORTRESS-CBRNE, two runs each. Discrimination
-is scored with A'.
+A deployer of open-weight models can control the harness, the scaffolding around the model
+at inference time. We ask whether this harness can be turned into defense and what a
+defensive harness should contain. We run experiments across fourteen open-weight models
+(7B to 106B parameters) and sixteen harness configurations in the domain of Chemical,
+Biological, Radiological, Nuclear and high-yield Explosives (CBRNE) risks, on 120 matched
+pairs from FORTRESS-CBRNE. Retrieved treaties and regulatory codes reach a discrimination
+score (A') of 0.794, with no statistically significant difference from an empty box labeled
+"policy" (0.790) and from no policy text at all (0.794). The boundary clauses, which pair
+what to answer against what to refuse across weapon class and attack stage, perform the
+best of the conditions we tested, reaching A' of 0.884.
 
 ## Contents
 
@@ -28,8 +34,7 @@ judge-first safety prompt, `jfabl1` and `jfabl2` the clause controls with the ve
 
 ## What is not here
 
-- **Model answers.** Answers to harmful prompts are never released. Run files keep only
-  the verdict for each prompt.
+- **Model answers.** Not released. Run files keep only the verdict for each prompt.
 - **FORTRESS prompts.** `src/fortress.py` downloads them from Hugging Face
   (`ScaleAI/fortress_public`, CC BY 4.0).
 - **Some corpus chunks.** Chunks whose source does not allow redistribution are left out of
